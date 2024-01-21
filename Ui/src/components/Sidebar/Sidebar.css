@@ -1,0 +1,43 @@
+.sideBar{
+    position: fixed;
+    width: 11.2rem;
+    height: 100vh;
+background-image: linear-gradient(45deg, black, #1fa2a3);   
+    top: 0;
+    left: 0;
+    color: white;
+    text-align: center;
+    animation: slide 2s ease infinite;
+}
+.totalResult{
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin: auto;
+    background: #113048;
+    box-shadow: inset -2px 20px 37px #000000;
+    color: #0bfdff;
+    border-radius: 7rem;
+    filter: drop-shadow(2px 4px 6px black);
+}
+@keyframes slide {
+    0% {
+        border-radius: 2rem;
+       transform: translateX(0); 
+    }
+    50% {
+        background-color:black;
+        background-image: linear-gradient(purple , black 45deg);
+    }
+    100%{
+        border-radius: 4rem;
+        background-image: linear-gradient(purple , black 180deg);
+        }
+
+}
+.td:hover{
+    cursor:not-allowed;
+}

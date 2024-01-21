@@ -1,0 +1,11 @@
+.viewArea{
+    position: fixed;
+    width: 87vw;
+    height: 100vh;
+    margin-top: 2.8rem;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 0.4rem;
+    overflow-y: auto;
+}
